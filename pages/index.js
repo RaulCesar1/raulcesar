@@ -48,7 +48,7 @@ export default function Home() {
             <a className={`inline ${htc}`} target="_blank" href="https://github.com/RaulCesar1">Github&nbsp;&nbsp;</a>
             <a className={`inline ${htc}`} target="_blank" href="https://www.npmjs.com/~raulcesaroliveira">NPM&nbsp;&nbsp;</a>
             <a className={`inline ${htc}`} target="_blank" href="https://twitter.com/RaulCsrOliveira">Twitter&nbsp;&nbsp;</a>
-            <a className={`inline ${htc}`} target="_parent" href="/">Youtube</a>
+            <a className={`inline ${htc}`} target="_blank" href="https://www.youtube.com/channel/UCX0TjriOFMsEHv0UDS5eIEQ">Youtube</a>
           </div>
         </div>
       </div>
