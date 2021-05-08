@@ -17,7 +17,7 @@ export default function Custom404() {
                 <Switch 
                 onChange={(op) => {
                 if(op===true) {
-                    setCdb('bg-gray-700')
+                    setCdb('bg-gray-900')
                     setCdt('text-white')
                     setEstado(true)
                 } else {
@@ -29,10 +29,11 @@ export default function Custom404() {
                 checked={estado}
                 uncheckedIcon={false}
                 checkedIcon={false}
-                onHandleColor={'#0033cc'}
-                onColor={'#0099ff'}
-                handleDiameter={27}
-                height={22}
+                handleDiameter={25}
+                onHandleColor={'#0f98d4'}
+                onColor={'#007db3'}
+                height={17}
+                width={55}
                 offHandleColor={'#a6a6a6'}
                 activeBoxShadow={'0 0 1px 2px #737373'}
                 />
@@ -40,7 +41,7 @@ export default function Custom404() {
 
             <div className={`${cdt} flex h-screen justify-center items-center`}>
                 <div className="text-center">
-                    <h1 className="text-grande">Encontramos um erro! 404 =(</h1>
+                    <h1 className="text-grande">404! =(</h1>
                     <h1 className="text-medio">Não foi possivel encontrar esta página.</h1>
                     <a href="/" className="text-red-700 text-voltar hover:text-red-500">Voltar</a>
                 </div>

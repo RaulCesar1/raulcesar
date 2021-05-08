@@ -6,7 +6,7 @@ export default function Home() {
     const [cdb,setCdb] = useState('bg-white')
     const [cdt,setCdt] = useState('text-black')
     const [estado,setEstado] = useState(false)
-    const [htc,setHtc] = useState('hover:text-blue-600')
+    const [htc,setHtc] = useState('hover:text-blue-800')
 
     return (
     <body className={`${cdb} overflow-hidden select-none font-mono`}>
@@ -18,24 +18,25 @@ export default function Home() {
         <Switch 
         onChange={(op) => {
           if(op===true) {
-            setCdb('bg-gray-700')
+            setCdb('bg-gray-900')
             setCdt('text-white')
             setHtc('hover:text-pink-600')
             setEstado(true)
           } else {
             setCdb('bg-white')
             setCdt('text-black')
-            setHtc('hover:text-blue-600')
+            setHtc('hover:text-blue-800')
             setEstado(false)
           }
         }} 
         checked={estado}
         uncheckedIcon={false}
         checkedIcon={false}
-        onHandleColor={'#0033cc'}
-        onColor={'#0099ff'}
-        handleDiameter={27}
-        height={22}
+        handleDiameter={25}
+        onHandleColor={'#0f98d4'}
+        onColor={'#007db3'}
+        height={17}
+        width={55}
         offHandleColor={'#a6a6a6'}
         activeBoxShadow={'0 0 1px 2px #737373'}
         />
